@@ -1,3 +1,27 @@
-h1 {
-    color: purple;
+body {
+    background-color: #e0e0e0;
+}
+
+h1, h2 {
+    color: #721827;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 > span {
+    color: #FA9F42;
+    font-size: .75em;
+}   
+
+#copyright {
+    padding-top: 12px;
+    font-size: .75em;
 }
